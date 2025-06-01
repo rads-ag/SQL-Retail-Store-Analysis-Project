@@ -32,22 +32,11 @@ The dataset consists of the following **9 interconnected tables**:
 ## 🔧 Technologies Used
 
 - **SQL** (Standard)
-- RDBMS: MySQL / PostgreSQL (Any platform of your choice)
+- RDBMS: MySQL
 - ERD Visualisation: [Provided in schema image]
 
 ---
 
-## 🧠 SQL Questions & Answers (Beginner to Advanced)
 
-> Below are categorized SQL practice questions with clear explanations.
 
----
 
-### 🟢 Beginner Level
-
-#### **1. List all customers and their corresponding orders**
-
-```sql
-SELECT c.customer_id, c.first_name, c.last_name, o.order_id, o.order_date
-FROM customers c
-JOIN orders o ON c.customer_id = o.customer_id;
